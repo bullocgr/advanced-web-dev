@@ -1,0 +1,28 @@
+.leftColumn {
+    flex: 50%;
+}
+
+.rightColumn {
+    /* flex: 50%; */
+}
+
+.App {
+    display: flex;
+}
+
+.card {
+    margin: 30px;
+    border: 2px solid grey;
+    padding: 15px;
+    display: grid;
+}
+
+input {
+    width: 75%;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
